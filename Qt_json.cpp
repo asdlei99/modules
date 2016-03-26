@@ -16,6 +16,6 @@ void my_json()
     while(_it.hasNext()) {
         _it.next();
         if(_it.name() == "key")
-            qDebug() << "¹ýÂË×Ö¶Î£º" << _it.name() << _it.value().toString();
+            qDebug() << "my_data:" << _it.name() << _it.value().toString();
     }
 }
