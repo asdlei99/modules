@@ -18,4 +18,6 @@ void my_json()
         if(_it.name() == "key")
             qDebug() << "my_data:" << _it.name() << _it.value().toString();
     }
+
+
 }
